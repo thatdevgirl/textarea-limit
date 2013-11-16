@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Textarea Character Limit Code Example</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="styles/textarea-limit.css" />
+</head>
+
+<body>
+
+<h1>Text Area Limit using YUI 2.7</h1>
+
+<p>
+    <textarea id="yui-textarea"></textarea>
+</p>
+
+<p>
+    <span>You have entered <span id="yui-textarea-chars"></span> of <span id="yui-textarea-limit"></span> characters.</span>
+</p>
+
+<p>
+    <input type="checkbox" id="yui-textarea-overlimit"></input> Allow me to keep typing past the character limit threshold.
+</p>
+
+<script type="text/javascript" src="scripts/yui/2.7.0/yahoo/yahoo-min.js"></script>
+<script type="text/javascript" src="scripts/yui/2.7.0/dom/dom-min.js"></script>
+<script type="text/javascript" src="scripts/yui/2.7.0/event/event-min.js"></script>
+<script type="text/javascript" src="scripts/textarea-limit.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* -- Base styles -- */
+
+h1 { font-weight: bold; margin: 1.5em 1em; }
+
+p { font-size: 1.1em; line-height: 1.25em; margin: 1em; padding: 0; }
+
+a { color: #A00; text-decoration: underline; }
+
+a:hover { text-decoration: none; }
+
+
+/* -- Text area styles -- */
+
+textarea { height: 10em; width: 30em; }
+
+#yui-textarea-chars,
+#yui-textarea-limit   { font-weight: bold; }
+#yui-textarea-chars { color: #0A0; }
+
+#yui-textarea-chars.near-limit { color: #E60; }
+#yui-textarea-chars.over-limit { color: #F00; }
